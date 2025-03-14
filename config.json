@@ -1,0 +1,36 @@
+{
+    "enable_faucet": true,
+    "enable_contract_deploy": false,
+    "enable_token_deploy": false,
+    "enable_swap": true,
+    "swap_settings": {
+        "tokens": {
+            "ETH": {
+                "swaps": 5,
+                "amount_type": "random",
+                "amount": 0.01,
+                "min_amount": 1,
+                "max_amount": 5,
+                "decimals": 3 
+            },
+            "SOL": {
+                "swaps": 5,
+                "amount_type": "random",
+                "min_amount": 1,
+                "max_amount": 5,
+                "decimals": 3
+            },
+            "USDC": {
+                "swaps": 5,
+                "amount_type": "random",
+                "amount": 0.015,
+                "min_amount": 1,
+                "max_amount": 5,
+                "decimals": 3 
+            }
+        }
+    },
+    "faucet_amount": "100",
+    "2captcha_key": "",
+    "capsolver_key": ""
+}
